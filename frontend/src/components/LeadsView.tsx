@@ -41,7 +41,7 @@ function InlineStatusEditor({
 
   return (
     <div className="status-editor">
-      <select value={sel} onChange={e => setSel(e.target.value)}>
+      <select value={sel} onChange={e => setSel(e.target.value as Creator['status'])}>
         <option value="new">new</option>
         <option value="reviewed">reviewed</option>
         <option value="contacted">contacted</option>
