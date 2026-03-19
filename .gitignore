@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.db
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+backend.log
+frontend.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
